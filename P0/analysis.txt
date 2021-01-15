@@ -1,0 +1,66 @@
+Task-0
+
+runtime --
+         # for printing statements  -> O(1) twice
+total : O(1+1) = O(1)
+__________________________________________________________________________
+
+Task-1
+
+runtime --
+         #  for 1st loop -> O(n)
+         # adding element in list -> O(1)  twice
+ 
+
+         #  for 2nd loop -> O(n)
+         # adding element in list -> O(1)  twice
+
+         # for printing result -> O(1)
+        
+
+total :   O(n+1+1) + O(n+1+1) + O(1) = O(n)
+___________________________________________________________________________
+
+Task-2
+
+runtime --
+        # for 1st loop :
+           loop -> O(n)
+           array acess via index -> O(1) 
+           adding item to dict -> O(1)
+        # for 2nd loop:
+           loop -> O(n)
+           print -> O(1)
+
+total : O(n+1+1) + O(n+1) = O(n)
+_____________________________________________________________________________
+
+Task-3
+
+runtime --
+        part A
+       # for 1st loops -> O(n)
+       # for enumerate -> O(m)
+       # for adding element in list -> O(1)
+       # for 1 for loop for printing -> O(n)
+       # sorted() -> O(nlogn)
+
+total : O(n*m) + O(1) + O(n) + O(nlogn) = O(nlogn) As dominant one
+
+        part B
+       # for 1st loop -> O(n)
+       # print -> O(1)
+
+total :  O(n) + O(1) = O(n) As dominant one
+________________________________________________________________________________
+
+Task - 4
+
+runtime --
+       
+       # for two for loop -> O(n) 
+       # print -> O(1)
+       # sorted() -> O(nlogn)
+
+total : O(n) + O(n) + O(1)+ O(nlogn) = O(nlogn)      
+       
